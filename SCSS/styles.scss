@@ -1,0 +1,17 @@
+@import "reset";
+@import "variables";
+@import "small-default";
+
+
+@media  only screen and (min-width:1140 px)
+{
+    @import "large";
+
+}
+/*End of media query for large css*/
+
+@media only screen and (min-width:560px)
+{
+    @import "medium";
+ } 
+ /*end of media query for medium css*/
